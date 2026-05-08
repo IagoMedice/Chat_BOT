@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de Ajuda com Git</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container mt-5">
+            <h5 class="text-center mb-3">🤖 Assistente Git</h5>
+            <div id="chat-box" class="chat-box border p-3 mb-3" style="height: 300px; overflow-y: auto;"></div>
+            <div class="input-group">
+                <input type="text" id="user-input" class="form-control" placeholder="Pergunte sobre Git... (ex: commit, branch)" />
+                <div class="input-group-append">
+                    <button id="send-button" class="btn btn-success">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
